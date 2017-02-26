@@ -1,0 +1,220 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("https://forum.processing.org") {
+/* 
+	forum.processing.org dark theme
+	thienandangthanh@gmail.com
+*/
+
+/* adapting a reset-all-css */
+/**
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+    * http://cssreset.com
+    */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    /*background: #333 !important;*/
+    
+    font-size: 100% !important;
+    font: inherit !important;
+    vertical-align: baseline !important;
+    font-family: sans !important;
+    color: #bbb !important;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block !important;
+}
+/*body {
+    /*adding a black color to body
+    
+    background: #333 !important;
+} */
+
+ol,
+ul {
+    list-style: none !important;
+}
+blockquote,
+q {
+    quotes: non !important;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+p {
+    color: #bbb;
+}
+h4 {
+    color: #bbb;
+}
+table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+#container {
+    background-color: #333 !important;
+    color: #bbb !important;
+    font-family: sans;
+}
+pre {
+    font-family: Consolas !important;
+}
+div .contentWrapper {
+    background: #333;
+}
+a {
+    /* color for hyperlinks*/
+    
+    color: #cc7 !important;
+}
+div.example pre {
+    color: #eee !important;
+}
+div .MessageList {
+    background: #333 !important;
+    color: #bbb !important;
+}
+div .sideBar .wrapper {
+    background: #333 !important;
+}
+div .Box {
+    background: #333 !important;
+    color: #bbb !important;
+}
+div .BoxFilter {
+    background: #333 !important;
+    color: #bbb !important;
+}
+div .Column {
+    background: #262626 !important;
+    /*color: #000 !important;*/
+}
+div #Body .Row {
+    background: #262626 !important;
+    /*color: #000 !important;*/
+}
+div .BreadcrumbsWrapper {
+    background: #333 !important;
+    color: #cc7 !important;
+}
+div .MeBox {
+    background: #333 !important;
+    color: #000 !important;
+}
+div .ItemContent {
+    background: #333 !important;
+    max-width: 800px;
+}
+div .Meta {
+    background: #333 !important;
+    max-width: 800px;
+}
+div .DataList .Item .NarrowList .Item {
+    border: 5px solid #fff;
+}
+div .Item.Read {
+    background: rgba(200, 25, 25, 0.8) !important;
+    opacity: .8;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+div .TagCloud li {
+    background: rgba(0, 0, 0, .4);
+}
+}
